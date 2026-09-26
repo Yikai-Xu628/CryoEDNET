@@ -2,8 +2,6 @@
 
 CryoEDNet denoises single-particle cryo-electron microscopy images. It is based on [DeepInv](https://github.com/deepinv/deepinv) and uses a DeepInv environment with the dependency versions listed in requirements.txt. Input images are prepared externally in ASPIRE; the code does not apply an additional input mask.
 
-This repository contains source code only. Datasets, trained weights and experimental results are not included.
-
 ## Entry points
 
 | File / function | Purpose |
