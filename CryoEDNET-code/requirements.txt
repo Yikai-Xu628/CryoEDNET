@@ -1,0 +1,6 @@
+# Tested version family. Select a compatible CPU/CUDA PyTorch wheel explicitly.
+torch==2.5.1
+torchvision==0.20.1
+numpy==1.26.4
+mrcfile==1.5.3
+deepinv==0.2.2
