@@ -12,7 +12,7 @@
 | `save_checkpoint()` | Save model weights, training statistics, configuration, optimizer and scheduler states. |
 | `infer.py / main()` | Denoise NPY/MRCS particle stacks using a checkpoint and restore the output intensity scale. |
 | `test_real.py / denoise()` | Apply per-image intensity scaling, run the denoiser and restore each image's original intensity scale. |
-| `test_real.py / main()` | Denoise a real NPY/MRCS particle stack with a selected strength. |
+| `test_real.py / main()` | Denoise a real NPY/MRCS particle stack. |
 | `evaluate.py / main()` | Calculate per-image MSE, PSNR and SSIM against paired clean references. |
 | `run_experiment.py / main()` | Run data checks, distillation, denoiser training, inference and evaluation in sequence. |
 | `now()` | Return the current time with its time zone. |
